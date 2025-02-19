@@ -1,0 +1,25 @@
+str1="hello"
+str2="world"
+concatenated=str1+str2
+print(concatenated)
+repeated=str1*3
+print(repeated)
+length=len(str1)
+print(length)
+char=str1[0]
+print(char)
+sliced=str1[1:4]
+print(sliced)
+text=" Hello, World "
+print(text.strip())
+print(text.lower())
+print(text.upper())
+print(text.split(','))
+print(text.replace('o','x'))
+print(text.find('o'))
+print(text.count('l'))
+print(','.join(['a','b']))
+print(text.startswith('H'))
+print(text.endswith('d'))
+a="coding"
+print(a[-3:-6:-1])
